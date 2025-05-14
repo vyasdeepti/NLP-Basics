@@ -47,6 +47,18 @@ NLP enables machines to bridge the gap between human communication and computers
    - **Use Case**: Prepare raw text data for downstream NLP tasks.
 
 
+---
+
+### **How to Add Examples**
+You can further customize the steps with examples in Markdown. For instance:
+
+1. **Input Text:** *"I love programming in Python!"*
+2. **After Text Cleaning:** *"i love programming in python"*
+3. **Tokens:** *["i", "love", "programming", "in", "python"]*
+4. **Stopwords Removed:** *["love", "programming", "python"]*
+5. **Stemming/Lemmatization:** *["lov", "program", "python"]* or *["love", "program", "python"]*
+
+Let me know if you'd like me to guide you through using Python libraries (like Matplotlib or Graphviz) or creating diagrams in specific tools!
 
 ---
 
