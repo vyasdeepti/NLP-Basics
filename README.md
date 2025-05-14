@@ -97,7 +97,7 @@ NLP enables machines to bridge the gap between human communication and computers
      - Implement extractive summarization techniques.
 
 ---
-
+```bash
 +--------------------+
 |   Raw Text Input   |
 +--------------------+
@@ -132,7 +132,7 @@ NLP enables machines to bridge the gap between human communication and computers
 +--------------------+
 
 This pipeline demonstrates how raw text transitions through preprocessing, feature extraction, and task-specific models to produce meaningful results.
-
+```
 
 ## 🛠️ Getting Started
 
