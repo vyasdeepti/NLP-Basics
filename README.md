@@ -20,10 +20,10 @@ Python: Employed for implementing NLP algorithms, leveraging its simplicity and 
 Getting Started
 Clone the repository:
 bash
-git clone https://github.com/vyasdeepti/NLP-Basics.git
+        git clone https://github.com/vyasdeepti/NLP-Basics.git
 Navigate to the repository directory:
 bash
-cd NLP-Basics
+        cd NLP-Basics
 Explore the CYK script to understand the CYK algorithm.
 Usage
 Run the CYK script to test the parsing algorithm with custom sentences.
