@@ -2,6 +2,21 @@
 
 Welcome to the **NLP Basics** repository! This repository serves as a comprehensive guide for beginners and enthusiasts to explore the foundational concepts and techniques in **Natural Language Processing (NLP)**. It contains interactive Jupyter Notebooks and Python scripts that demonstrate various NLP workflows, algorithms, and applications.
 
+Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) and linguistics that focuses on the interaction between computers and human language. NLP enables machines to understand, interpret, and generate human language in a way that is both meaningful and useful.
+
+Key Goals of NLP:
+Language Understanding:
+
+The ability to comprehend the meaning behind words, sentences, and context.
+Examples: Sentiment analysis, text classification, entity recognition.
+Language Generation:
+
+The ability to produce coherent and contextually relevant human-like text.
+Examples: Text summarization, chatbots, machine translation.
+
+Why is NLP Important?
+NLP enables machines to bridge the gap between human communication and computers, making technology more accessible and human-friendly. It powers many modern applications that improve efficiency, automate tasks, and enhance user experiences in various domains like healthcare, finance, education, and entertainment.
+
 ---
 
 ## Repository Overview
