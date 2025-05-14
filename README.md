@@ -130,7 +130,52 @@ Execute the cells sequentially to explore the NER implementation.
 
 
 
+Word Frequency Analysis Notebook
+This Jupyter Notebook provides a practical implementation of word frequency analysis using the spaCy library. The notebook processes a sample text and identifies the most frequently occurring words, excluding stop words and punctuation.
 
+Features
+1. Text Processing
+Utilizes spaCy's en_core_web_sm language model to process and tokenize text.
+Handles complex text structures, including sentences, punctuation, and stop words.
+2. Word Frequency Analysis
+Extracts meaningful words from the text after filtering out:
+Stop words: Commonly used words (e.g., "and", "the") that don't add significant meaning.
+Punctuation.
+Counts the occurrences of each word using Python's collections.Counter.
+3. Sample Text
+Analyzes a predefined text about Gus Proto, a Python developer, covering topics such as:
+His interests in Natural Language Processing.
+His activities in organizing meetups and talks.
+His passion for learning to play the piano.
+4. Top Words
+Outputs the top 10 most frequent words along with their counts.
+Example output:
+Code
+[('Gus', 4), ('London', 3), ('Natural', 3), ('Language', 3), ('Processing', 3), ('Piano', 3), ('Python', 2), ('developer', 2), ('Fintech', 2), ('learning', 2)]
+Getting Started
+Prerequisites
+Ensure you have Python installed with the following libraries:
+
+spaCy
+Install the required libraries using:
+
+bash
+pip install spacy
+python -m spacy download en_core_web_sm
+Running the Notebook
+Clone this repository:
+
+bash
+git clone https://github.com/vyasdeepti/NLP-Basics.git
+Navigate to the directory:
+
+bash
+cd NLP-Basics
+Launch Jupyter Notebook:
+
+bash
+jupyter notebook WordFrequency_.ipynb
+Follow the cells sequentially to understand and execute the word frequency analysis.
 
 
 
