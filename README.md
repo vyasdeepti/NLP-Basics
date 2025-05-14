@@ -10,11 +10,12 @@ The ability to comprehend the meaning behind words, sentences, and context.
 Examples: Sentiment analysis, text classification, entity recognition.
 
 - Language Generation:
-
 The ability to produce coherent and contextually relevant human-like text.
 Examples: Text summarization, chatbots, machine translation.
 
 **Why is NLP Important?**
+
+
 NLP enables machines to bridge the gap between human communication and computers, making technology more accessible and human-friendly. It powers many modern applications that improve efficiency, automate tasks, and enhance user experiences in various domains like healthcare, finance, education, and entertainment.
 
 ---
