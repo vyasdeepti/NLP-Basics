@@ -1,4 +1,4 @@
-# <span style="color:red">NATURAL LANGUAGE PROCESSING </span>📚📚
+# NATURAL LANGUAGE PROCESSING 📚📚
 
 Welcome to the **NLP Basics** repository! This repository serves as a comprehensive guide for beginners and enthusiasts to explore the foundational concepts and techniques in **Natural Language Processing (NLP)**. It contains interactive Jupyter Notebooks and Python scripts that demonstrate various NLP workflows, algorithms, and applications.
 
