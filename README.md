@@ -17,17 +17,6 @@ Example usage with a sample sentence: "a very heavy orange book".
 Technologies Used
 Jupyter Notebooks: The primary format for interactive code demonstrations and analysis.
 Python: Employed for implementing NLP algorithms, leveraging its simplicity and robust library ecosystem.
-Getting Started
-Clone the repository:
-bash
-        git clone https://github.com/vyasdeepti/NLP-Basics.git
-Navigate to the repository directory:
-bash
-        cd NLP-Basics
-Explore the CYK script to understand the CYK algorithm.
-Usage
-Run the CYK script to test the parsing algorithm with custom sentences.
-Modify the grammar rules or terminal symbols to adapt the algorithm to new contexts.
 
 
 # NLP Preprocessing Notebook
@@ -49,33 +38,6 @@ Splits text into manageable tokens for further processing.
 5. Parts-of-Speech Tagging
 Tags tokens with their respective parts of speech (e.g., noun, verb) using NLTK's pos_tag function.
 Demonstrates tagging in sentences and its role in syntactic analysis.
-Getting Started
-Prerequisites
-Ensure you have Python installed with the following libraries:
-
-NLTK
-Install missing libraries using:
-
-bash
-pip install nltk
-Running the Notebook
-Clone this repository:
-
-bash
-git clone https://github.com/vyasdeepti/NLP-Basics.git
-Navigate to the directory:
-
-bash
-cd NLP-Basics
-Launch Jupyter Notebook:
-
-bash
-jupyter notebook NLP_Preprocessing_2.ipynb
-Follow the cells sequentially to explore the preprocessing steps.
-
-Usage
-This notebook provides a hands-on introduction to preprocessing tasks in NLP. It can be used as a starting point for projects requiring clean and structured text data.
-
 
 
 # Named Entity Recognition (NER) Notebook
@@ -105,32 +67,8 @@ Highlights entities with different colors for easy identification.
 Processes a sample text about Barack Obama, illustrating NER capabilities on real-world data:
 "Barack Hussein Obama II is an American politician who served as the 44th president of the United States from 2009 to 2017."
 
-Getting Started
-Prerequisites
-Ensure you have Python and Jupyter Notebook installed. Install the required libraries using:
 
-bash
-pip install spacy
-python -m spacy download en_core_web_sm
-Running the Notebook
-Clone the repository:
-
-bash
-git clone https://github.com/vyasdeepti/NLP-Basics.git
-Navigate to the repository directory:
-
-bash
-cd NLP-Basics
-Launch Jupyter Notebook:
-
-bash
-jupyter notebook NamedEntityRecognition.ipynb
-Execute the cells sequentially to explore the NER implementation.
-
-
-
-
-Word Frequency Analysis Notebook
+# Word Frequency Analysis Notebook
 This Jupyter Notebook provides a practical implementation of word frequency analysis using the spaCy library. The notebook processes a sample text and identifies the most frequently occurring words, excluding stop words and punctuation.
 
 Features
@@ -149,53 +87,7 @@ His activities in organizing meetups and talks.
 His passion for learning to play the piano.
 4. Top Words
 Outputs the top 10 most frequent words along with their counts.
-Example output:
-Code
-[('Gus', 4), ('London', 3), ('Natural', 3), ('Language', 3), ('Processing', 3), ('Piano', 3), ('Python', 2), ('developer', 2), ('Fintech', 2), ('learning', 2)]
-Getting Started
-Prerequisites
-Ensure you have Python installed with the following libraries:
 
-spaCy
-Install the required libraries using:
-
-bash
-pip install spacy
-python -m spacy download en_core_web_sm
-Running the Notebook
-Clone this repository:
-
-bash
-git clone https://github.com/vyasdeepti/NLP-Basics.git
-Navigate to the directory:
-
-bash
-cd NLP-Basics
-Launch Jupyter Notebook:
-
-bash
-jupyter notebook WordFrequency_.ipynb
-Follow the cells sequentially to understand and execute the word frequency analysis.
-
-
-The file convert_in_Biagram.ipynb demonstrates how to generate bigrams (pairs of consecutive words) from a given list of sentences using Python.
-
-Code Explanation
-Input Data: The input is a list of sentences:
-
-test_list = [
-    'Flowers have long been appreciated by humans for their beauty and pleasant scents.',
-    'They hold cultural significance as religious, ritual, or symbolic objects, or sources of medicine and food.'
-]
-
-These are sentences about flowers and their significance.
-
-Bigram Formation: The code uses a combination of:
-
-list comprehension
-enumerate()
-split()
-to iterate through each sentence in the list, split the sentence into words, and generate consecutive word pairs (bigrams).
 
 Example of bigram generation:
 
@@ -217,10 +109,6 @@ The formed bigrams are : [
     ('or', 'sources'), ('sources', 'of'), ('of', 'medicine'), ('medicine', 'and'), 
     ('and', 'food.')
 ]
-
-
-
-
 
 ## Technologies Used
 
