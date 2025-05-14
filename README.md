@@ -8,8 +8,8 @@ Welcome to the **NLP Basics** repository! This repository serves as a comprehens
 
 ### 🗂 Repository Composition:
 - **Languages Used:**
-  - **Jupyter Notebook** (96.2%): Interactive notebooks to explore and execute NLP concepts.
-  - **Python** (3.8%): Python scripts for implementing core NLP functionalities.
+  - **Jupyter Notebook/Google Colaboratory** : Interactive notebooks to explore and execute NLP concepts.
+  - **Python** : Python scripts for implementing core NLP functionalities.
 
 - **Intended Audience:**
   - Beginners aiming to learn NLP concepts.
