@@ -178,7 +178,45 @@ jupyter notebook WordFrequency_.ipynb
 Follow the cells sequentially to understand and execute the word frequency analysis.
 
 
+The file convert_in_Biagram.ipynb demonstrates how to generate bigrams (pairs of consecutive words) from a given list of sentences using Python.
 
+Code Explanation
+Input Data: The input is a list of sentences:
+
+test_list = [
+    'Flowers have long been appreciated by humans for their beauty and pleasant scents.',
+    'They hold cultural significance as religious, ritual, or symbolic objects, or sources of medicine and food.'
+]
+
+These are sentences about flowers and their significance.
+
+Bigram Formation: The code uses a combination of:
+
+list comprehension
+enumerate()
+split()
+to iterate through each sentence in the list, split the sentence into words, and generate consecutive word pairs (bigrams).
+
+Example of bigram generation:
+
+For the sentence "Flowers have long been appreciated", the bigrams would be:
+[('Flowers', 'have'), ('have', 'long'), ('long', 'been'), ('been', 'appreciated')]
+
+Output: The bigrams are printed as a result:
+The original list is : [
+    'Flowers have long been appreciated by humans for their beauty and pleasant scents.',
+    'They hold cultural significance as religious, ritual, or symbolic objects, or sources of medicine and food.'
+]
+The formed bigrams are : [
+    ('Flowers', 'have'), ('have', 'long'), ('long', 'been'), ('been', 'appreciated'), 
+    ('appreciated', 'by'), ('by', 'humans'), ('humans', 'for'), ('for', 'their'), 
+    ('their', 'beauty'), ('beauty', 'and'), ('and', 'pleasant'), ('pleasant', 'scents.'),
+    ('They', 'hold'), ('hold', 'cultural'), ('cultural', 'significance'), 
+    ('significance', 'as'), ('as', 'religious,'), ('religious,', 'ritual,'), 
+    ('ritual,', 'or'), ('or', 'symbolic'), ('symbolic', 'objects,'), ('objects,', 'or'),
+    ('or', 'sources'), ('sources', 'of'), ('of', 'medicine'), ('medicine', 'and'), 
+    ('and', 'food.')
+]
 
 
 
