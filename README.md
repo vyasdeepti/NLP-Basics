@@ -6,7 +6,7 @@ Welcome to the **NLP Basics** repository! This repository serves as a comprehens
 
 Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) and linguistics that focuses on the interaction between computers and human language. NLP enables machines to understand, interpret, and generate human language in a way that is both meaningful and useful.
 
-# $${\color{red} **Key Goals of NLP** }$$:
+**Key Goals of NLP**:
 - Language Understanding: 
 The ability to comprehend the meaning behind words, sentences, and context.
 Examples: Sentiment analysis, text classification, entity recognition.
