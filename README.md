@@ -138,11 +138,5 @@ We welcome contributions to enhance this repository! If you would like to contri
 
 This repository is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
----
-
----
-
-
----
 
 Thanks for exploring this repository! If you find it useful, consider giving it a ⭐ to show your support!
