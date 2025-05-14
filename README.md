@@ -140,17 +140,8 @@ This repository is licensed under the **MIT License**. See the [LICENSE](LICENSE
 
 ---
 
-## About the Author
-
-This repository is maintained by [vyasdeepti](https://github.com/vyasdeepti). Feel free to reach out for any questions, suggestions, or collaboration opportunities.
-
 ---
 
-## Future Work and Enhancements
-
-- Add deep learning models for NLP tasks using TensorFlow or PyTorch.
-- Include advanced NLP techniques like transformers and BERT.
-- Provide end-to-end NLP project pipelines.
 
 ---
 
