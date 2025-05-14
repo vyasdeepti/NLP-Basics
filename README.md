@@ -97,15 +97,16 @@ Input Text:
 "I love programming in Python. Python is an amazing programming language that I love."
 
 Steps for Word Frequency Analysis:
-Text Cleaning
 
-Convert text to lowercase, remove punctuation, and split into words (tokens).
+Text Cleaning: Convert text to lowercase, remove punctuation, and split into words (tokens).
+
 Example:
-["i", "love", "programming", "in", "python", "python", "is", "an", "amazing", "programming", "language", "that", "i", "love"]
-Count Word Frequencies
 
-Count the occurrences of each word.
-Example
+["i", "love", "programming", "in", "python", "python", "is", "an", "amazing", "programming", "language", "that", "i", "love"]
+
+Count Word Frequencies: Count the occurrences of each word.
+
+Example:
 
 
 {
@@ -121,10 +122,9 @@ Example
     "that": 1
 }
 
-Sort by Frequency
+Sort by Frequency : Sort the words by their frequency in descending order.
 
-Sort the words by their frequency in descending order.
-Example
+Example:
 
 [
     ("i", 2),
