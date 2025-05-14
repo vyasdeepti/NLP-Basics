@@ -98,6 +98,42 @@ NLP enables machines to bridge the gap between human communication and computers
 
 ---
 
++--------------------+
+|   Raw Text Input   |
++--------------------+
+          |
+          v
++--------------------+
+| Text Preprocessing |
++--------------------+
+          |
+          v
++--------------------+
+| Feature Extraction |
+| (e.g., word vectors|
+| or embeddings)     |
++--------------------+
+          |
+          v
++------------------------------+
+| NLP Tasks                   |
+| - Text Classification       |
+| - Sentiment Analysis        |
+| - Named Entity Recognition  |
+| - Machine Translation       |
+| - Question Answering        |
+| - Text Summarization        |
++------------------------------+
+          |
+          v
++--------------------+
+|   Output Results   |
+| (Predictions, etc.)|
++--------------------+
+
+This pipeline demonstrates how raw text transitions through preprocessing, feature extraction, and task-specific models to produce meaningful results.
+
+
 ## 🛠️ Getting Started
 
 ### Prerequisites
