@@ -1,3 +1,4 @@
+![Visitor Count](https://profile-counter.glitch.me/vyasdeepti/count.svg)
 
 # NATURAL LANGUAGE PROCESSING 📚📚 
 
@@ -478,4 +479,3 @@ We welcome contributions to enhance this repository! If you would like to contri
 
 Thanks for exploring this repository! If you find it useful, consider giving it a ⭐ to show your support!
 
-![Visitor Count](https://profile-counter.glitch.me/vyasdeepti/count.svg)
